@@ -1,0 +1,31 @@
+{
+  "name": "ZIMA",
+  "subtitle": "Diário de treinamento",
+  "description": "As versões do ZIMA, publicadas pela esteira a cada build. Source gerada automaticamente — não editar à mão.",
+  "iconURL": "https://raw.githubusercontent.com/lucas2331/zima-releases/main/icon.png",
+  "website": "https://github.com/lucas2331/zima-releases",
+  "tintColor": "#7b89ff",
+  "apps": [
+    {
+      "name": "ZIMA",
+      "bundleIdentifier": "com.lucas2331.zima",
+      "developerName": "Lucas Gomes",
+      "subtitle": "Diário de treinamento",
+      "localizedDescription": "Diário de treinamento pessoal: fichas com prescrição série a série, modo treino com cronômetro e descanso automático, histórico com recordes, plano da semana, calendário assinável e trilha sonora de cada treino.\n\nFunciona inteiro offline, no próprio aparelho. Com conta, sincroniza com o Supabase.",
+      "iconURL": "https://raw.githubusercontent.com/lucas2331/zima-releases/main/icon.png",
+      "tintColor": "#7b89ff",
+      "category": "lifestyle",
+      "versions": [],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.developer.healthkit"
+        ],
+        "privacy": {
+          "NSHealthShareUsageDescription": "Ler os treinos registrados pelo Apple Watch para juntá-los ao diário.",
+          "NSPhotoLibraryAddUsageDescription": "Salvar o cartão do treino nas Fotos."
+        }
+      }
+    }
+  ],
+  "news": []
+}
